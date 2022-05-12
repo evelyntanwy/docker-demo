@@ -1,4 +1,4 @@
-var http = require("http")
+var http = require("http");
 
 http.createServer(function (req, res) {
     res.writeHead(200, {"Content-Type": "text/html"});
@@ -12,5 +12,5 @@ http.createServer(function (req, res) {
         </body>
     </html>
     `);
-}).listen(80000)
+}).listen(8000)
 console.log("Server running on port 8000")
